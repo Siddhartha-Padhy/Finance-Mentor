@@ -34,7 +34,7 @@ export default function Navbar({ active }) {
             active === 'bank' ? 'nav-item nav-link active' : 'nav-item nav-link'
           }
           style={{ paddingRight: '1vw' }}
-          to="/"
+          to="/bank"
         >
           Bank
         </Link>
